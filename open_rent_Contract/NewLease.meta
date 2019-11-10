@@ -1,0 +1,15 @@
+{
+    "compile": {
+        "gasEstimates": {
+            "creation": {
+                "codeDepositCost": "659400",
+                "executionCost": "696",
+                "totalCost": "660096"
+            },
+            "external": {
+                "createNewLease(string,string,string,string,string,string,uint256,uint256)": "infinite",
+                "leases(uint256)": "infinite"
+            }
+        }
+    }
+}

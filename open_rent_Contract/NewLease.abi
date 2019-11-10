@@ -1,0 +1,91 @@
+[
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "name": "leases",
+        "outputs": [
+            {
+                "name": "landlordName",
+                "type": "string"
+            },
+            {
+                "name": "tenantName",
+                "type": "string"
+            },
+            {
+                "name": "leaseSignedDate",
+                "type": "string"
+            },
+            {
+                "name": "leaseStartDate",
+                "type": "string"
+            },
+            {
+                "name": "leaseEndDate",
+                "type": "string"
+            },
+            {
+                "name": "leaseAddress",
+                "type": "string"
+            },
+            {
+                "name": "apartmentNumber",
+                "type": "uint256"
+            },
+            {
+                "name": "leaseCost",
+                "type": "uint256"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "_landlordName",
+                "type": "string"
+            },
+            {
+                "name": "_tenantName",
+                "type": "string"
+            },
+            {
+                "name": "_leaseSignedDate",
+                "type": "string"
+            },
+            {
+                "name": "_leaseStartDate",
+                "type": "string"
+            },
+            {
+                "name": "_leaseEndDate",
+                "type": "string"
+            },
+            {
+                "name": "_leaseAddress",
+                "type": "string"
+            },
+            {
+                "name": "_apartmentNumber",
+                "type": "uint256"
+            },
+            {
+                "name": "_leaseCost",
+                "type": "uint256"
+            }
+        ],
+        "name": "createNewLease",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    }
+]
